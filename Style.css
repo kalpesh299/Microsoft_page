@@ -1,0 +1,318 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    /* height:100vh; */
+    width: 100vw;
+    /* border:2px solid red; */
+  overflow-x: hidden;
+}
+header{
+    height:60px;
+    width:100%;
+    /* border: 2px solid salmon; */
+    display: flex;
+}
+.nav_left{
+height:100%;
+width: 50%;
+/* border:2px solid blueviolet; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.left_container{
+    height:100%;
+    width:90%;
+    /* border:2px solid green; */
+    display: flex;
+}
+.left_img_container{
+    width:30%;
+    height:100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_img_container img{
+    height: 50%;
+    width:60%;
+}
+.left_menu_container{
+    width:70%;
+    height:100%;
+    /* border: 2px solid rgb(0, 255, 30); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_menu{
+    list-style: none;
+    display: flex;
+}
+.left_menu li{
+    padding:5px;
+}
+.left_menu .list1:hover{
+    border-bottom: 2px solid black;
+}
+.left_menu .list2:hover{
+    border-bottom: 2px solid black;
+}
+.left_menu .list3:hover{
+    border-bottom: 2px solid black;
+}
+.left_menu .list4:hover{
+    border-bottom: 2px solid black;
+}
+.left_menu .list5:hover{
+    border-bottom: 2px solid black;
+}
+.left_menu .list6:hover{
+    border-bottom: 2px solid black;
+}
+
+.nav_right{
+    height:100%;
+    width: 50%;
+    /* border:2px solid blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.left_container{
+    height:100%;
+    width:70%;
+    /* border: 2px solid goldenrod; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_menu_container{
+    height: 100%;
+    width:90%;
+    /* border:2px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_menu{
+     list-style: none;
+    display: flex;
+}
+.right_menu li{
+padding:5px;
+}
+
+.right_menu .list1:hover{
+    border-bottom: 2px solid black;
+}
+.right_menu .list2:hover{
+    border-bottom: 2px solid black;
+}
+.right_menu .list3:hover{
+    border-bottom: 2px solid black;
+}
+.right_menu .list4:hover{
+    border-bottom: 2px solid black;
+}
+.right_menu .list5:hover{
+    border-bottom: 2px solid black;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+}
+main{
+    /* border:1px solid blue; */
+}
+.main_sectionone{
+    height:450px;
+    width: 100%;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP5-1920x600");
+vertical-align: middle;
+}
+.main_sectionone_main_container{
+    height:100%;
+    width: 100%;
+    /* border: 1px solid orange; */
+    display: flex;
+}
+
+.sectionone_left {
+    width:73%;
+    height: 100%;
+    
+}
+.sectiontone_right{
+    width: 27%;
+    height:100%;
+    /* border:2px solid rgb(205, 22, 22); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.main_sectiontwo{
+    height:200px;
+    width:100%;
+    /* border:2px solid olivedrab; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_sectiontwo_main_container{
+    width:60%;
+    height:80%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main_sectiontwo_subcontainer{
+    height:80%;
+    width:22%;
+    /* border: 2px solid black; */
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main_sectionthree{
+    height:450px;
+    width:100%;
+    /* border:2px solid royalblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_sectionthree_main_container{
+    width:90%;
+    height:100%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_sectionthree_sub_containers{
+    width: 100%;
+    height:100%;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+   }
+ .main_sectionthree_sub_container{
+    height:100%;
+    width: 23%;
+    /* border: 2px solid hotpink; */
+  margin: auto;
+ }  
+ .subcontainer_img{
+    height:40%;
+    width: 100%;
+    /* border: 2px solid rgb(0, 255, 30); */
+ }
+ .subcontainer_img img{
+    height:100%;
+    width: 100%;
+ }
+ .main_sectionfour{
+    margin: auto;
+    margin-top: 20px;
+    height:450px;
+    width: 90%;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Xbox-Series-S-Light-Background:VP5-1596x600");
+  vertical-align: middle;
+}
+
+.main_sectionfive{
+    margin-top: 20px;
+    height:450px;
+    width:100%;
+    /* border:2px solid royalblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    height:400px;
+    width:100%;
+    background-color: #f2f2f2;
+    margin-top: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_main_container{
+    height:100%;
+    width:90%;
+    /* border: 2px solid maroon; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_subcontainer{
+    width: 15%;
+    height: 100%;
+    /* border: 2px solid royalblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_lists{
+    list-style: none;
+    height: 90%;
+   
+}
+.footer_lists li{
+    padding:10px;
+}
+.wheight{
+    font-weight: bolder;
+}
+.list{
+    color:#61616a;
+}
+.sub_footer{
+    height:50px;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: #f2f2f2;
+    display: flex;
+}
+.subfooter_left{
+    width: 30%;
+    /* border: 2px solid goldenrod; */
+}
+.subfooter_right{
+    width: 70%;
+    /* border: 2px solid forestgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.subfooter_list{
+    height:100%;
+    width:70%;
+    /* border: 2px solid forestgreen; */
+    
+}
+.subfooter_list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.subfooter_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
